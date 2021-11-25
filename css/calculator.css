@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: sans-serif;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: 0;
+    overflow: hidden; */
+}
+
+.calc-container {
+    width: 450px;
+    height: 585px;
+    background-color: #666;
+    margin: 0 auto;
+
+}
+
+.calc-container input{
+    width: 430px;
+    height: 100px;
+    margin: 10px 10px;
+    text-align: right;
+    font-size: 30px;
+    border: none;
+    outline: none;
+}
+
+.calc-container .cal-btn-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    gap: 4%;
+}
+
+.calc-container .cal-btn-container div{
+    border-radius: 4px;
+}
+
+.calc-container .cal-btn-container div .btn{
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.calc-container .cal-btn-container .bin,
+.calc-container .cal-btn-container .oct,
+.calc-container .cal-btn-container .hex{
+
+    background-color: greenyellow;
+
+}
+
+.calc-container .cal-btn-container .dec{
+
+    background-color: #999;
+
+}
+
+.calc-container .cal-btn-container .ac{
+
+    background-color: red;
+    border-radius: 10px;
+
+}
+
+.calc-container .cal-btn-container div .bgbl{
+    color: #000;
+}
+
+.calc-container .cal-btn-container .circle{
+    border-radius: 50%;
+}
+
+.calc-container .cal-btn-container .s6,
+.calc-container .cal-btn-container .s7,
+.calc-container .cal-btn-container .s8,
+.calc-container .cal-btn-container .s9{
+    background-color: #fff;
+}
+
+
+.calc-container .cal-btn-container .splus{
+    background-color: rgb(10, 236, 240);
+    border-radius: 10px;
+}
+
+
+.calc-container .cal-btn-container .s2,
+.calc-container .cal-btn-container .s3,
+.calc-container .cal-btn-container .s4,
+.calc-container .cal-btn-container .s5{
+
+    background-color: #fff;
+}
+
+.calc-container .cal-btn-container .sminus{
+    background-color: rgba(226, 151, 11, 0.856);
+    border-radius: 10px;
+}
+
+.calc-container .cal-btn-container .sa,
+.calc-container .cal-btn-container .sb,
+.calc-container .cal-btn-container .sdot,
+.calc-container .cal-btn-container .sone{
+
+    background-color: #fff;
+}
+
+.calc-container .cal-btn-container .sforward{
+    background-color: rgb(57, 57, 226);
+    border-radius: 10px;
+}
+
+.calc-container .cal-btn-container .sc,
+.calc-container .cal-btn-container .sd,
+.calc-container .cal-btn-container .se,
+.calc-container .cal-btn-container .sf{
+
+    background-color: #fff;
+}
+
+.calc-container .cal-btn-container .sstar{
+    background-color: rgb(57, 226, 156);
+    border-radius: 10px;
+}
+
+.calc-container .cal-btn-container .szero,
+.calc-container .cal-btn-container .sequal{
+    width: 180px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.calc-container .cal-btn-container .sequal{
+    background-color: rgb(235, 235, 14);
+    border-radius: 10px;
+}
+
+.calc-container .cal-btn-container .spercent{
+    background-color: rgb(206, 17, 212);
+    border-radius: 10px;
+}
+
+.calc-container .cal-btn-container .btn{
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 65px;
+    color: #000;
+    /* padding: 15px; */
+}
+
+
